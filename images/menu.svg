@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="25" viewBox="0 0 96 25">
+  <g id="Group_2307" data-name="Group 2307" transform="translate(-179 -153)">
+    <g id="Group_578" data-name="Group 578" transform="translate(-28 43)">
+      <rect id="Rectangle_65" data-name="Rectangle 65" width="30" height="4" rx="2" transform="translate(207 111)" fill="#340b64"/>
+      <rect id="Rectangle_66" data-name="Rectangle 66" width="30" height="4" rx="2" transform="translate(207 120)" fill="#340b64"/>
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="30" height="4" rx="2" transform="translate(207 129)" fill="#340b64"/>
+    </g>
+    <text id="Menu" transform="translate(225 172)" fill="#1a2b39" font-size="18" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Menu</tspan></text>
+  </g>
+</svg>
