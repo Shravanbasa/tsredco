@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="te">
+
+<head>
+    <title>
+        TSREDCO - Telangana State Renewable Energy Development Corporation Ltd.,</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/TSREDCOlogo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <style>
+        .scrolltop {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            border-radius: 5px;
+            color: #fff;
+            background: #ff006f;
+        }
+        .navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+
+        .swiper-container {
+            height: auto;
+        }
+
+        .navbar-nav li:hover .dropdown-menu {
+            display: block;
+        }
+
+        /* rotate caret on hover */
+        .dropdown-menu>li>a:hover:after {
+            text-decoration: underline;
+            transform: rotate(-90deg);
+        }
+
+        .nav-link {
+            font-size: 14px !important;
+        }
+
+        .dropdown-toggle::after {
+            display: none;
+        }
+
+        .nav-item {
+            padding-left: .5rem !important;
+            padding-right: .5rem !important;
+            padding-top: .5rem !important;
+            padding-bottom: .5rem !important;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #1a2b39 !important;
+        }
+
+        .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #ff006f !important;
+        }
+
+        .dropdown-item:focus,
+        .dropdown-item:hover {
+            background: #ff006f !important;
+        }
+
+        .dropdown-item {
+            font-size: 14px !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section style="background-image: url(images/bg.png);">
+        <div class="container-fluid pl-0 pr-0">
+            <div class="pt-3 pb-3 container pl-lg-0 pr-lg-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div><small class="text-white">Contact: 040-2320 1502, 2320 1503</small></div>
+                    </div>
+                    <div class="col-lg-9 text-lg-right">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="d-flex float-right">
+                                    <div class="badge-danger p-1" onclick="document.getElementById('text').style.fontSize='12px'" style="cursor: pointer;">A-</div>
+                                    <div class="badge-danger ml-lg-2 p-1" onclick="document.getElementById('text').style.fontSize='16px'" style="cursor: pointer;">A</div>
+                                    <div class="badge-danger ml-lg-2 p-1" onclick="document.getElementById('text').style.fontSize='24px'" style="cursor: pointer;">A+</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div id="google_translate_element"></div> -->
+            </div>
+            <div class="d-none d-lg-block d-md-none">
+                <div class="pt-2 pb-3 container bg-white shadow">
+                    <div class="row align-items-center">
+                        <!-- <div class="col-lg-1 mb-auto mt-auto pr-0">
+                            <ul class="top-level-menu">
+                                <li>
+                                    <a href="#"><img src="images/menu.svg" style="height: 20px;"></a>
+                                    <ul class="second-level-menu pt-5">
+                                        <li class="mt-4 pt-2 pb-2"><a href="#" class="text-decoration-none">Home</a>
+                                        </li>
+                                        <li> <a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">About Us</a>
+                                            <ul class="third-level-menu">
+                                                <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">About
+                                                        the
+                                                        Company</a></li>
+                                                <li><a href="#"
+                                                        class="text-nowrap pt-2 pb-2 text-decoration-none">Vision
+                                                        And Mission</a></li>
+                                                <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">State
+                                                        Designated Agency</a>
+                                                </li>
+                                                <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Board
+                                                        Of
+                                                        Directors</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Energy
+                                                Conservation</a>
+                                            <ul class="fourth-level-menu">
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Energy
+                                                        Conservation
+                                                        Building Code</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Energy
+                                                        Auditing</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Industrial Energy
+                                                        Effeciency</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Energy
+                                                        Performance</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Energy
+                                                        Consultants</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Energy Auditors &
+                                                        Energy Managers</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Led
+                                                        Streetlights</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Perform Achieve
+                                                        And
+                                                        Trade</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Solar
+                                                Energy</a>
+                                        </li>
+                                        <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Electric Vehicles</a>
+                                            <ul class="fifth-level-menu">
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">EV Policy</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Other
+                                                Renewable
+                                                Energies</a>
+                                            <ul class="sixth-level-menu">
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Wind Energy</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Biomass
+                                                        Energy</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Biogas Energy</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Industrialwaste
+                                                        To
+                                                        Energy</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Mini Hydel
+                                                        Project</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Bio Energy</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Gio Thermal
+                                                        Energy</a></li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Municipal Solid
+                                                        Waste
+                                                        To Energy</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Downloads</a>
+                                            <ul class="seventh-level-menu">
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Downloads</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">RTI</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Contact
+                                                Us</a>
+                                            <ul class="eight-level-menu">
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Contact Us</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Email</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="text-nowrap pt-2 pb-2 text-decoration-none">Grievance</a>
+                                            <ul class="nine-level-menu">
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">New Complaint</a>
+                                                </li>
+                                                <li><a href="#" class="pt-2 pb-2 text-decoration-none">Complaint Resolve
+                                                        Entry</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
+                        </div> -->
+
+                        <div class="col-lg-10 mt-lg-2">
+                            <div class="d-flex">
+                                <div>
+                                    <div><img src="images/TSREDCOlogo.svg" style="height: 100px;"></div>
+                                </div>
+                                <div class="ml-lg-3 mt-lg-3">
+                                    <h6 class="font-weight-bold text-black">Telengana State Renewable Energy
+                                        Development
+                                        Corporation
+                                        Ltd., (TSREDCO)</h6>
+                                    <p class="font-weight-bold small text-black">తెలంగాణ రాష్ట్ర పునరుద్ధరణీయ ఇంధన వనరుల
+                                        అభివృద్ధి సంస్థ లిమిటెడ్</p>
+                                </div>
+                                <div class="ml-lg-4">
+                                    <div><img src="images/telenganagovtlogo.svg" style="height: 100px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mb-auto mt-auto pr-0 text-lg-center">
+                            <button type="button" class="btn btn-custom pb-2 pl-3 pr-3 pt-2">Sign In</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="bg-white border container pl-lg-0 pr-lg-0 shadow">
+                    <nav class="navbar navbar-expand-lg navbar-light pb-0 pl-lg-0 pr-lg-0 pt-0">
+
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        About Us
+                                    </a>
+                                    <div class="dropdown-menu m-0 shadow border-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">About the Company</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Vision
+                                            And Mission</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">State
+                                            Designated Agency</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Board
+                                            Of
+                                            Directors</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Energy Conservation
+                                    </a>
+                                    <div class="dropdown-menu m-0 shadow border-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Energy
+                                            Conservation
+                                            Building Code</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Energy
+                                            Auditing</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Industrial Energy
+                                            Effeciency</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Energy
+                                            Performance </a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Energy Auditors &
+                                            Energy Managers</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">BEE Manuals & Calculators</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Led
+                                            Streetlights</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Perform Achieve
+                                            And
+                                            Trade</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Solar Energy</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Electric Vehicles
+                                    </a>
+                                    <div class="dropdown-menu m-0 shadow border-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">EV Policy
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Other Renewable Energies
+                                    </a>
+                                    <div class="dropdown-menu m-0 shadow border-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Wind Energy</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Biomass
+                                            Energy</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Biogas Energy</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Industrialwaste
+                                            To
+                                            Energy</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Mini Hydel
+                                            Project</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Bio Energy</a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Gio Thermal
+                                            Energy</a>
+
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Municipal Solid
+                                            Waste
+                                            To Energy</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Downloads
+                                    </a>
+                                    <div class="dropdown-menu m-0 shadow border-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Downloads
+                                        </a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">RTI
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Tenders
+                                    </a>
+                                    <!-- <div class="dropdown-menu m-0 shadow border-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div> -->
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        Contact
+                                    </a>
+                                    <div class="dropdown-menu m-0 shadow border-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Contact
+                                        </a>
+                                        <a class="dropdown-item pt-lg-2 pb-lg-2" href="#">Email
+                                        </a>
+
+                                    </div>
+                                </li>
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                      Grivence
+                                    </a>
+                                    <div class="dropdown-menu m-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li> -->
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="text">
+            <div class="container pl-lg-0 pr-lg-0 pb-lg-1">
+                <div class="mt-5 mt-lg-5 mt-md-4 row slider ">
+                    <div class="col-12">
+                        <div class="row pt-5 pt-lg-0 pt-md-0">
+                            <div class="col-lg-6">
+                                <h2 class="mb-4 text-lg-left mt-lg-4 text-blue font-weight-bolder font_size_50px">The
+                                    Future in
+                                    Renewable Energy
+                                </h2>
+                                <div class="col-lg-12  pl-lg-0 pl-0">
+                                    <p class="col-lg-12  pl-lg-0 pl-0 text-blue text-lg-left">The genesis of
+                                        Telangana New and Renewable Energy Development
+                                        Corporation Limited [TNREDCL] took place in the year 2015 with the
+                                        help of Government … Solar Energy The genesis of Telangana New and
+                                        Renewable Energy.</p>
+                                    <p class="text-lg-left">
+                                        <button type="button" class="btn btn-custom mb-2 py-3 px-4 mt-lg-4">
+                                            Our Services</button>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div><img src="images/renewableenergy.png"
+                                        class="img-fluid d-none d-lg-block d-md-none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row pt-5 pt-lg-0 pt-md-0">
+                            <div class="col-lg-6">
+                                <h2 class="mb-4 text-lg-left text-blue font-weight-bolder font_size_50px mt-lg-4">Wind
+                                    is
+                                    a domestic source of energy.
+                                </h2>
+                                <div class="col-lg-12  pl-lg-0 pl-0">
+                                    <p class="col-lg-12 pl-lg-0 pl-0 text-blue text-lg-left">The genesis of
+                                        Telangana New and Renewable Energy Development
+                                        Corporation Limited [TNREDCL] took place in the year 2015 with the
+                                        help of Government … Solar Energy The genesis of Telangana New and
+                                        Renewable Energy.</p>
+                                    <p class="text-lg-left">
+                                        <button type="button" class="btn btn-custom mb-2 py-3 px-4 mt-lg-4">
+                                            Our Services</button>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div><img src="images/domestic.png" class="img-fluid d-none d-lg-block d-md-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row pt-5 pt-lg-0 pt-md-0">
+                            <div class="col-lg-6">
+                                <h2 class="mb-4 text-lg-left text-blue font-weight-bolder font_size_50px mt-lg-4">Bio
+                                    Fuels for Industrial Use
+                                </h2>
+                                <div class="col-lg-12  pl-lg-0 pl-0">
+                                    <p class="col-lg-12 pl-lg-0 pl-0 text-blue text-lg-left">The genesis of
+                                        Telangana New and Renewable Energy Development
+                                        Corporation Limited [TNREDCL] took place in the year 2015 with the
+                                        help of Government … Solar Energy The genesis of Telangana New and
+                                        Renewable Energy.</p>
+                                    <p class="text-lg-left">
+                                        <button type="button" class="btn btn-custom mb-2 py-3 px-4 mt-lg-4">
+                                            Our Services</button>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div><img src="images/fuel.png" class="img-fluid d-none d-lg-block d-md-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg1">
+        <div class="container pt-lg-5 pb-5 pl-l-0 pr-lg-0 pt-5">
+            <div class="row">
+                <div class="col-lg-4 team-section pl-lg-0 pr-lg-0">
+                    <div
+                        style="background: rgba(255, 255, 255 ,0.25);border: 1px solid rgba(255, 255, 255 ,0.18);backdrop-filter: blur(35px);border-radius: 20px;">
+                        <div class="card ml-3 mr-3 mt-5 border-0">
+                            <div class="mx-0 pb-lg-3 pt-lg-3 row pt-3 pb-3">
+                                <div class="col-lg-4 col-4 col-md-4">
+                                    <img src="images/KCR.svg">
+                                </div>
+                                <div class="col-lg-8 col-8 col-md-8">
+                                    <p class="mb-0 mt-lg-2 small text-pink">Hon'ble Chief Minister</p>
+                                    <p class="text-black font-weight-600 mb-0">Sri K Chandrashekar Rao</p>
+                                    <p class="mb-0 small" style="color: #7B7F9F;">Government of Telangana</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ml-3 mr-3 mt-3 border-0">
+                            <div class="mx-0 pb-lg-3 pt-lg-3 row pt-3 pb-3">
+                                <div class="col-lg-4 col-4 col-md-4">
+                                    <img src="images/jagadishreddy.svg">
+                                </div>
+                                <div class="col-lg-8 col-8 col-md-8">
+                                    <p class="mb-0 mt-lg-2 small text-pink">Hon'ble Energy Minister</p>
+                                    <p class="text-black font-weight-600 mb-0">Sri G Jagadish Reddy</p>
+                                    <p class="mb-0 small" style="color: #7B7F9F;">Government of Telangana</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ml-3 mr-3 mt-3 border-0">
+                            <div class="mx-0 pb-lg-3 pt-lg-3 row pt-3 pb-3">
+                                <div class="col-lg-4 col-4 col-md-4">
+                                    <img src="images/Abdul.svg" class="border" style="height: 89px;border-radius: 5px;">
+                                </div>
+                                <div class="col-lg-8 col-8 col-md-8">
+                                    <p class="mb-0 mt-2 small text-pink">Hon'ble Energy Minister</p>
+                                    <p class="text-black font-weight-600 mb-0">Sri Syed Abdul Aleem</p>
+                                    <p class="small" style="color: #7B7F9F;">Government of Telangana</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ml-3 mr-3 mt-3 border-0">
+                            <div class="mx-0 pb-lg-3 pt-lg-3 row pt-3 pb-3">
+                                <div class="col-lg-4 col-4 col-md-4">
+                                    <img src="images/Sandeep.svg" class="border"
+                                        style="height: 89px;border-radius: 5px;">
+                                </div>
+                                <div class="col-lg-8 col-8 col-md-8">
+                                    <p class="mb-0 mt-2 small text-pink">Hon'ble Energy Minister</p>
+                                    <p class="text-black font-weight-600 mb-0">Sri Sandeep Kumar Sultania, IAS</p>
+                                    <p class="small mb-0" style="color: #7B7F9F;">Energy Dept of Telangana</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ml-3 mr-3 mt-3 border-0 mb-5">
+                            <div class="mx-0 pb-lg-3 pt-lg-3 row pt-3 pb-3">
+                                <div class="col-lg-4 col-4 col-md-4">
+                                    <img src="images/Janaiah.svg" class="border"
+                                        style="height: 89px;border-radius: 5px;">
+                                </div>
+                                <div class="col-lg-8 col-8 col-md-8">
+                                    <p class="mb-0 mt-2 small text-pink">VC & Managing Directorr</p>
+                                    <p class="text-black font-weight-600 mb-0">Sri N. Janaiah</p>
+                                    <p class="small" style="color: #7B7F9F;">TSREDCO, Hyderabad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 team-section mt-5 mt-lg-0">
+                    <div style="background: rgba(255, 255, 255 ,0.25);border: 1px solid rgba(255, 255, 255 ,0.18);backdrop-filter: blur(35px);border-radius: 20px;"
+                        class="pl-lg-3 pr-lg-3 pb-lg-5">
+                        <nav id="myTab" class="nav nav-tabs mt-lg-4 mb-lg-4 mt-4 mb-4" role="tablist">
+                            <a class="nav-item nav-link active w-16 text-lg-center pl-lg-0 pr-lg-0" id="nav-home-tab"
+                                data-toggle="tab" href="#whatsnew" role="tab" aria-controls="nav-home"
+                                aria-selected="true">What's New</a>
+                            <a class="nav-item nav-link w-16 text-lg-center pl-lg-0 pr-lg-0" id="nav-profile-tab"
+                                data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Tenders</a>
+                            <a class="nav-item nav-link w-16 text-lg-center pl-lg-0 pr-lg-0" id="nav-contact-tab"
+                                data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Latest
+                                News</a>
+                            <a class="nav-item nav-link w-16 text-lg-center pl-lg-0 pr-lg-0" id="gallery-tab"
+                                data-toggle="tab" href="#gallery" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Gallery</a>
+                            <a class="nav-item nav-link w-16 text-lg-center pl-lg-0 pr-lg-0" id="awards-tab"
+                                data-toggle="tab" href="#awards" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">EC
+                                Awards</a>
+                            <a class="nav-item nav-link w-16 text-lg-center pl-lg-0 pr-lg-0" id="News-tab"
+                                data-toggle="tab" href="#News" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Updates</a>
+                        </nav>
+
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane active" id="whatsnew" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <p class=" text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus PageMaker including versions of
+                                    Lorem Ipsum. </p>
+                            </div>
+
+                            <div class="tab-pane text-black" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                <p class=" text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus PageMaker including versions of
+                                    Lorem Ipsum. </p>
+                            </div>
+
+                            <div class="tab-pane text-black" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab">
+                                <p class=" text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus PageMaker including versions of
+                                    Lorem Ipsum. </p>
+                            </div>
+                            <div class="tab-pane text-black" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
+                                <p class=" text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus PageMaker including versions of
+                                    Lorem Ipsum. </p>
+                            </div>
+                            <div class="tab-pane text-black" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+                                <p class=" text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus PageMaker including versions of
+                                    Lorem Ipsum. </p>
+                            </div>
+                            <div class="tab-pane text-black" id="News" role="tabpanel" aria-labelledby="News-tab">
+                                <p class=" text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus PageMaker including versions of
+                                    Lorem Ipsum. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="vision mt-lg-5 mb-lg-5">
+        <div class="container pl-lg-0 pr-lg-0">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-1 order-lg-0 order-md-0">
+                    <h2 class="text-blue font-weight-600 mt-5 mt-lg-0 mt-md-0">Our Mission & Vision</h2>
+                    <div class="mt-lg-4 mt-4">
+                        <p class="text-blue col-lg-11 pl-lg-0 pl-0">To be a pioneer institute in the area of promotion
+                            of
+                            Energy Conservation
+                            Initiatives and
+                            Renewable Energy programmes/ Projects with state-of-art technologies coupled with experts
+                            and
+                            technocrats to present highly competitive and efficient Services to the End User "</p>
+                        <p class="text-blue mt-lg-3 col-lg-11 pl-lg-0 mt-3 pl-0">The Mission is to Promote, Develop,
+                            Enforce,
+                            Encourage, Popularize
+                            and carry out Research & consultancy for Implementation of Energy Efficiency and Renewable
+                            Energy Projects in the state in due consultation with State and Central Governments.</p>
+                    </div>
+                    <div class="mt-lg-4 mt-4">
+                        <button type="button" class="btn btn-custom pt-lg-3 pb-lg-3 pl-lg-4 pr-lg-4">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 pr-lg-0 mt-lg-4 mt-5 order-0 order-lg-1 order-md-1">
+                    <div><img src="images/mission.png" class="img-fluid mt-4 mt-lg-0 mt-md-0"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="logos mt-lg-5 mb-lg-5 pt-lg-5 mt-5 pt-3">
+        <div class="container pl-lg-0 pr-lg-0">
+            <div class="row">
+                <div class="col-lg-3 text-lg-center">
+                    <div><a href="https://www.telangana.gov.in/" target="_blank"><img src="images/telenganagovtlogo.svg"
+                                class="img-fluid"></a></div>
+                </div>
+                <div class="col-lg-3">
+                    <div><a href="http://www.mnre.gov.in/" target="_blank"><img src="images/mnre.svg"
+                                class="img-fluid"></a></div>
+                </div>
+                <div class="col-lg-3 text-lg-center">
+                    <div><a href="https://beeindia.gov.in/" target="_blank"><img src="images/BEE unnamed.svg"
+                                class="img-fluid"></a></div>
+                </div>
+                <div class="col-lg-3">
+                    <div><a href="https://powermin.gov.in/" target="_blank"><img src="images/MinistryofPower.svg"
+                                class="img-fluid"></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="calculator pt-lg-5 pb-lg-5 pt-5 pb-5 mt-5 mt-lg-0 mt-md-0" style="background: #32c36c;">
+        <div class="container pl-lg-0 pr-lg-0">
+            <div class="row shadow align-items-center mx-0" style="background: #fff !important;border-radius: 20px;">
+                <div class="col-lg-5 pl-lg-0 pl-0 pr-0">
+                    <div class="card border-0" style="border-radius: 20px;background: #ff006f;">
+                        <div><img src="images/calculator.svg" class="img-fluid"></div>
+                        <div class="p-lg-4 p-3">
+                            <h6 class="text-white line-height_28px">Telangana State Renewable Energy Development
+                                Corporation Ltd., - TSREDCO</h6>
+                            <div class="mt-lg-4">
+                                <small class="text-white">(A State Govt. Company)</small>
+                            </div>
+                            <div>
+                                <p class="text-white font-weight-light small">Regd. Office Cum Corporate Office: D.No.
+                                    6-2-910, Visvesvaraya Bhavan, The
+                                    Institution of Engineers Building, Khairatabad, Hyderabad - 500 004. Telangana
+                                    State, India</p>
+                            </div>
+                            <div class="mt-lg-4 d-flex mt-4 mb-3 mb-lg-0 mb-md-0">
+                                <div>
+                                    <button type="button"
+                                        class="border-0 btn btn-info pl-lg-4 pr-lg-4 text-white">Contact Us</button>
+                                </div>
+                                <div>
+                                    <button type="button"
+                                        class="border-0 btn btn-email pl-lg-4 pr-lg-4 ml-lg-3 ml-3">Email</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="font-weight-bolder ml-lg-5 mt-4 mt-lg-0 mt-md-0 pl-lg-1 text-pink">Solar Plant calculator
+                    </h3>
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10 col-12">
+                            <div class="mt-lg-4 mt-4">
+                                <input type="text" class="form-control form_control"
+                                    placeholder="Units Consumed (Per Month)">
+                            </div>
+                            <div class="mt-lg-4 mt-4">
+                                <select class="form-control form_control">
+                                    <option>Type Of Phase</option>
+                                    <option>1-Phase</option>
+                                    <option>3-Phase</option>
+                                </select>
+                            </div>
+
+                            <div class="mt-lg-4 mt-4">
+                                <select class="form-control form_control">
+                                    <option>Category</option>
+                                    <option>1-Phase</option>
+                                    <option>3-Phase</option>
+                                </select>
+                            </div>
+                            <div class="mt-lg-4 mt-4">
+                                <select class="form-control form_control">
+                                    <option>Connection Type</option>
+                                    <option>1-Phase</option>
+                                    <option>3-Phase</option>
+                                </select>
+                            </div>
+                            <div class="mt-lg-4 mt-4">
+                                <input type="text" class="form-control form_control"
+                                    placeholder="Units Load (Per Month)">
+                            </div>
+
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
+                    <div class="row mt-lg-4 mt-4 mb-4 mb-lg-0 mb-md-0">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10 col-12">
+                            <button type="button"
+                                class="btn btn-info border-0 btn-block pt-lg-2 pb-lg-2">Submit</button>
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact pb-lg-5 pt-lg-5" style="background: #71FF84;">
+        <div class="container pr-lg-0 pl-lg-0" style="background: #ff006f;border-radius: 20px !important;" ;="">
+            <div class="mx-lg-0 p-lg-4 row">
+                <div class="col-lg-5">
+                    <div class="align-items-center row">
+                        <div class="col-lg-3"><img src="images/TSREDCO download.svg" style="height: 80px;"></div>
+                        <div class="col-lg-8 pl-lg-0">
+                            <h6 class="text-white">Telangana State Renewable Energy Development Corporation Ltd.,
+                                (TSREDCO)</h6>
+                        </div>
+                    </div>
+                    <div class="align-items-center mt-lg-3 row">
+                        <div class="col-lg-3"><img src="images/telenganagovtlogo.svg" style="height: 75px;"></div>
+                        <div class="col-lg-8 pl-lg-0">
+                            <b class="text-white">తెలంగాణ రాష్ట్ర పునరుద్ధరణీయ ఇంధన వనరుల అభివృద్ధి సంస్థ లిమిటెడ్</b>
+
+                        </div>
+
+                    </div>
+                    <div class="mt-lg-3">
+                        <p class="font-weight-light mb-0 small text-white">(A State Govt. Company)</p>
+                        <p class="font-weight-light small text-white">Regd. Office Cum Corporate Office: D.No.
+                            6-2-910, Visvesvaraya Bhavan, The
+                            Institution of Engineers Building, Khairatabad, Hyderabad - 500 004. Telangana
+                            State, India</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="text-white">About Us</h5>
+                    <ul style="list-style-type: none;" class="pl-lg-0">
+                        <li class="mt-lg-3 text-white font-weight-light">About TSREDCO</li>
+                        <li class="mt-lg-3 text-white font-weight-light">Vision & Mission</li>
+                        <li class="mt-lg-3 text-white font-weight-light">State Designated Agency</li>
+                        <li class="mt-lg-3 text-white font-weight-light">Board Of Directors</li>
+                        <li class="mt-lg-3 text-white font-weight-light">Organization Structure</li>
+                        <li class="mt-lg-3 text-white font-weight-light">Ministry of New & Renewal Energy</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="text-white">Contact Us</h5>
+                    <ul style="list-style-type: none;" class="pl-lg-0">
+                        <li class="mt-lg-3 text-white font-weight-light">Get in Touch</li>
+                        <li class="mt-lg-3 text-white font-weight-light">News & Updates</li>
+                        <li class="mt-lg-3 text-white font-weight-light">Email</li>
+                        <li class="mt-lg-3 text-white font-weight-light">Grievance</li>
+                    </ul>
+                </div>
+                <div class="col-lg-1">
+                    <div><img src="images/icons8-facebook (1).svg"></div>
+                    <div class="mt-lg-3"><img src="images/icons8-twitter.svg"></div>
+                    <div class="mt-lg-3"><img src="images/icons8-youtube-play-button.svg"></div>
+                    <div class="mt-lg-3"><img src="images/icons8-instagram.svg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="container-fluid pl-lg-0 pr-lg-0" style="background: #4DC97E !important;">
+            <div class="container pl-lg-0 pr-lg-0">
+                <div class="row pt-lg-3 pb-lg-3 pt-3 pb-3" style="background: #4DC97E !important;">
+                    <div class="col-lg-6 text-lg-left pl-lg-0">
+                        <p class="text-white mb-0 small">© 2021 TSREDCO. All Rights Reserved</p>
+                    </div>
+                    <div class="col-lg-6 text-lg-right pr-lg-0">
+                        <a href="http://www.paccore.com/" class="text-white text-decoration-none small"
+                            target="_blank">www.paccore.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <a class="pb-3 pl-3 pr-3 pt-3 scrolltop"><i class="fa fa-long-arrow-up text-white" aria-hidden="true"></i></a>
+    <script>
+        $(".scrolltop").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+
+        $('.slider').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            dots: true,
+            cssEase: 'linear',
+            arrows: false,
+            fade: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'hi,en,te' }, 'google_translate_element');
+        }
+        window.onscroll = function () { scrollFunction() };
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
